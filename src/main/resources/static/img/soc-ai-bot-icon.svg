@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SOC AI Bot">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="36" x2="216" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0891b2"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="#020617"/>
+  <circle cx="128" cy="128" r="104" fill="url(#bg)"/>
+  <path
+    d="M128 35l72 29-13 91c-7 34-33 61-59 77-26-16-52-43-59-77L56 64l72-29z"
+    fill="#f8fafc"
+  />
+  <path
+    d="M128 60l49 20-10 68c-5 23-21 43-39 56-18-13-34-33-39-56L79 80l49-20z"
+    fill="#0f766e"
+  />
+  <text
+    x="128"
+    y="143"
+    text-anchor="middle"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+    fill="#fff"
+  >
+    SOC
+  </text>
+</svg>
