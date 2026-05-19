@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOC AI Bot</title>
+  <link rel="icon" type="image/svg+xml" href="/img/soc-ai-bot-icon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <img class="logo" src="/img/soc-ai-bot-icon.svg" alt="SOC AI Bot">
+        <div>
+          <h1>SOC AI Bot</h1>
+          <p>Java Spring Boot</p>
+        </div>
+      </div>
+
+      <section class="panel">
+        <h2>Підтримувані інциденти</h2>
+        <ul>
+          <li>Фішинг</li>
+          <li>Malware</li>
+          <li>Ransomware</li>
+          <li>Компрометація акаунта</li>
+          <li>Brute-force</li>
+          <li>Підозрілий трафік</li>
+          <li>Витік даних</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>NLU-аналіз</h2>
+        <div id="analysis">
+          <p class="muted">
+            Після повідомлення тут з'явиться intent, confidence, severity та entities.
+          </p>
+        </div>
+      </section>
+    </aside>
+
+    <main class="chat-area">
+      <header class="hero">
+        <div class="hero-top">
+          <span class="badge">гібридний ML-бот</span>
+          <button id="shutdown-button" class="shutdown-button" type="button">
+            Завершити роботу
+          </button>
+        </div>
+        <h2>Первинний аналіз кіберінцидентів</h2>
+        <p>
+          Опишіть подію: підозрілий лист, злам акаунта, ransomware, brute-force
+          або витік даних.
+        </p>
+      </header>
+
+      <section id="messages" class="messages">
+        <div class="message bot">
+          <div class="avatar">SOC</div>
+          <div class="bubble">
+            Вітаю. Я SOC-асистент. Опишіть кіберінцидент, а я визначу тип,
+            сутності, рівень критичності та запропоную першочергові дії.
+          </div>
+        </div>
+      </section>
+
+      <form id="chat-form" class="composer">
+        <input
+          id="message-input"
+          autocomplete="off"
+          placeholder="Наприклад: На SERVER-RDP багато невдалих входів на порт 3389..."
+        >
+        <button type="submit">Надіслати</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

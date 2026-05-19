@@ -1,0 +1,121 @@
+intent,text
+greeting,"Привіт, потрібна допомога з інцидентом безпеки"
+greeting,"Добрий день, хочу повідомити про проблему"
+greeting,"Вітаю, можеш допомогти з кіберінцидентом?"
+greeting,"Привіт, потрібно розібратися з підозрілою активністю"
+greeting,"Добрий вечір, є питання щодо безпеки"
+greeting,"Вітаю, потрібна консультація SOC"
+greeting,"Привіт, допоможи оцінити ризик"
+greeting,"Доброго дня, хочу перевірити підозрілу ситуацію"
+greeting,"Привіт, у мене проблема з комп’ютером"
+greeting,"Добрий день, потрібна кібердопомога"
+greeting,"Вітаю, чи можеш проаналізувати інцидент?"
+greeting,"Привіт, потрібно звернутися в кібербезпеку"
+phishing_report,Отримав лист із підозрілим посиланням на зміну пароля
+phishing_report,Мені прийшов email від невідомого відправника з вкладенням
+phishing_report,Користувач перейшов за посиланням у підозрілому листі
+phishing_report,"Лист виглядає як повідомлення від банку, але домен дивний"
+phishing_report,Отримав повідомлення з вимогою терміново підтвердити акаунт
+phishing_report,У пошті є лист від support@micros0ft-login.com
+phishing_report,Надійшов фішинговий лист із формою входу
+phishing_report,Користувач ввів пароль на підозрілому сайті
+phishing_report,"Підозрюю фішинг, бо посилання веде не на офіційний домен"
+phishing_report,Пошта просить завантажити архів і ввести облікові дані
+phishing_report,Лист просить оновити пароль через незнайомий URL
+phishing_report,Отримав email про блокування акаунта з кнопкою login
+malware_suspicion,На комп’ютері з’явився підозрілий процес
+malware_suspicion,Антивірус знайшов шкідливий файл
+malware_suspicion,Після запуску програми система поводиться дивно
+malware_suspicion,На ПК з’явилися невідомі файли
+malware_suspicion,Користувач відкрив вкладення і комп’ютер почав гальмувати
+malware_suspicion,Є підозра на зараження вірусом
+malware_suspicion,Windows Defender повідомив про malware
+malware_suspicion,Файл із флешки запускає невідомий процес
+malware_suspicion,У диспетчері задач бачу підозрілий exe
+malware_suspicion,На комп’ютері самі відкриваються вікна
+malware_suspicion,Браузер перекидає на рекламні сайти
+malware_suspicion,З’явився процес update_service.exe у Temp
+ransomware_alert,Файли на комп’ютері стали зашифровані
+ransomware_alert,На робочому столі з’явився README_DECRYPT.txt
+ransomware_alert,Система вимагає викуп за розшифрування файлів
+ransomware_alert,Документи не відкриваються і змінили розширення
+ransomware_alert,На сервері з’явилися файли з дивним розширенням
+ransomware_alert,Користувач бачить повідомлення з вимогою оплати
+ransomware_alert,Після відкриття архіву всі документи перестали відкриватися
+ransomware_alert,Антивірус повідомив про ransomware
+ransomware_alert,Файли отримали розширення .locked
+ransomware_alert,На ПК написано що треба заплатити bitcoin
+ransomware_alert,Мережева папка зашифрована
+ransomware_alert,Сервер файлового сховища має багато зашифрованих документів
+account_compromise,Підозрюю що мій акаунт зламали
+account_compromise,У пошті бачу входи з іншої країни
+account_compromise,"Користувач не може увійти, пароль змінено"
+account_compromise,У журналі є вхід з невідомого IP 185.12.44.9
+account_compromise,Мій обліковий запис надсилає листи без мене
+account_compromise,Бачу підозрілі сесії в акаунті
+account_compromise,Хтось змінив пароль користувача
+account_compromise,Увімкнули переадресацію пошти без дозволу
+account_compromise,Є підозра на компрометацію облікового запису
+account_compromise,"Користувач отримав MFA push, який не запитував"
+account_compromise,Увійшли в акаунт admin з IP 10.0.0.5
+account_compromise,У Microsoft 365 є підозріла активність
+bruteforce_detected,У журналі багато невдалих спроб входу
+bruteforce_detected,На сервері RDP багато failed login
+bruteforce_detected,Є brute force атака на SSH
+bruteforce_detected,За 10 хвилин було 200 спроб входу
+bruteforce_detected,IP 45.67.12.8 підбирає пароль
+bruteforce_detected,На порт 3389 йде багато підключень
+bruteforce_detected,У Windows Event Log багато помилок входу
+bruteforce_detected,Користувача admin намагаються зламати
+bruteforce_detected,Firewall показує багато login attempt
+bruteforce_detected,На VPN багато невдалих авторизацій
+bruteforce_detected,Брутфорс на сервері SERVER-AD
+bruteforce_detected,Багато невдалих входів з одного IP
+suspicious_network_activity,Бачу підозрілий трафік на IP 8.8.8.8
+suspicious_network_activity,Комп’ютер підключається до невідомого домену
+suspicious_network_activity,На сервері відкритий підозрілий порт 4444
+suspicious_network_activity,З хоста PC-ADMIN-01 йде трафік на дивний домен
+suspicious_network_activity,Firewall блокує багато підключень
+suspicious_network_activity,Є підозрілий DNS-запит на malware-site.com
+suspicious_network_activity,На мережі активність до command and control сервера
+suspicious_network_activity,Підозрілий трафік через HTTP
+suspicious_network_activity,Хост SERVER-DB підключається до зовнішнього IP
+suspicious_network_activity,Виявлено сканування портів
+suspicious_network_activity,З одного комп’ютера йдуть запити на багато адрес
+suspicious_network_activity,На порт 445 багато підключень
+data_leak_suspicion,Є підозра на витік даних
+data_leak_suspicion,Користувач відправив конфіденційний файл не тому адресату
+data_leak_suspicion,З бази даних могли вивантажити інформацію
+data_leak_suspicion,На зовнішній диск скопійовано багато файлів
+data_leak_suspicion,Виявлено підозрілий експорт CSV з клієнтськими даними
+data_leak_suspicion,Документ з персональними даними потрапив у відкритий доступ
+data_leak_suspicion,Є підозра що дані студентів були завантажені
+data_leak_suspicion,На пошту відправлено архів із важливими файлами
+data_leak_suspicion,Хтось завантажив багато документів із SharePoint
+data_leak_suspicion,Можливий data breach
+data_leak_suspicion,Секретний файл опинився у Telegram
+data_leak_suspicion,Було переслано базу клієнтів на Gmail
+create_incident_ticket,Створи заявку на інцидент
+create_incident_ticket,Потрібно оформити інцидент
+create_incident_ticket,Зареєструй звернення в SOC
+create_incident_ticket,Створи тікет для кібербезпеки
+create_incident_ticket,Оформи заявку по цій проблемі
+create_incident_ticket,Потрібно передати інцидент аналітику
+create_incident_ticket,Створи картку інциденту
+create_incident_ticket,Збережи цей випадок як інцидент
+create_incident_ticket,Підготуй заявку для адміністратора
+create_incident_ticket,Потрібно зареєструвати security ticket
+create_incident_ticket,Створи запит на реагування
+create_incident_ticket,Оформи проблему як кіберінцидент
+unknown,Яка сьогодні погода?
+unknown,Порахуй мені два плюс два
+unknown,Порадь фільм на вечір
+unknown,Хочу замовити піцу
+unknown,Як приготувати каву?
+unknown,Розкажи жарт
+unknown,Який курс долара?
+unknown,Напиши вірш
+unknown,Знайди рецепт борщу
+unknown,Постав будильник
+unknown,Допоможи вибрати телефон
+unknown,Я хочу купити квитки в кіно
